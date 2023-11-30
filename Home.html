@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            padding: 0px;
+            margin: 0px;
+            background-color: rgb(160, 160, 229);
+            color: white;
+        }
+    
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(13, 13, 94);
+
+        }
+        ul{
+            display: flex;
+            justify-content: center;
+
+        }
+       nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+        
+        .left{
+            font-size: 1.2rem;
+        }
+        a{
+            text-decoration: none;
+            color: lightgreen;
+            font-size: 20px;
+        }
+        nav ul li a:hover{
+            font-size: 20px;
+            background-color: aqua;
+            color: red;
+            padding: 10px;
+        }
+        nav ul li a:active{
+            background-color: yellow;
+        }
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            
+
+        }
+        .firstsection > div
+        {
+         width: 35%;
+         margin: 20px;
+          
+         
+         
+         
+        }
+        .firstsection .leftside{
+            font-size: 3rem;
+            text-align: center;
+            
+
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"><h2><span class="k" style="color: red;">K</span> <span class="i" style="color: orange;">I</span><span class="r" style="color: yellow;">R</span><span class="a" style="color: green;">A</span><span class="n" style="color: blue;">N</span>&nbsp; &nbsp;<span class="b" style="color: skyblue;">B</span><span class="a" style="color: green;">A</span> <span="l" style="color: red">L</span><span class="a">A</span>&nbsp;&nbsp;<span class="p" style="color: aliceblue;">Portfolio</span></h2></div>
+            <div class="right">
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Resume.html">Resume</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                    <li><a href="rainbow.html">Rainbow</a></li>
+                    <li><a href="swastik.html">Swastik</a></li>
+            
+                
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftside">
+                Hi, I am Kiran
+                <div>and I am a<span style="color: red;">Web Designer</span> </div>
+            </div>
+            <div class="rightside">
+                <img src="women-web-developer.png"/>
+            </div>
+            
+        </section>
+        
+        
+    </main>
+    
+</body>
+</html>
